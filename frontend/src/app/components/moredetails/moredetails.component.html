@@ -1,0 +1,84 @@
+<div class="j">
+
+
+
+    
+    <div class="a">
+
+    <div class="janu">
+        <br>
+Name:{{issue.name}}<br><br>
+Description :{{issue.description}}<br><br>
+Latitude:{{issue.latitude}}<br><br>
+Longitude:{{issue.longitude}}<br><br>
+Ratings:{{issue.rating}}<br><br>
+Timings:{{issue.timing}}<br><br>
+Offers:{{issue.offers}}<br><br>
+Specials:{{issue.specials}}<br><br>
+Sales:{{issue.sales}}<br><br>
+</div>
+
+<div class="aa">
+    <div class="bb">
+        
+    <button  (click)="ratedivdsipaly()" class="ratingslayer">RATE</button>
+    <div class="b1">
+                <div *ngIf="!ratediv"  class="ratinglayer" >
+                    <h2>RATE HERE</h2>
+                    <form>
+                        <div class="a1">
+                      <mat-slider  
+                            class="example-margin"
+                            [disabled]=false
+                            [invert]="invert"
+                            [max]="max"
+                            [min]="min"
+                            [step]="step"
+                            [thumbLabel]="thumbLabel"
+                            [tickInterval]="getSliderTickInterval()"
+                            [vertical]="vertical" #slider
+                            >
+                            
+                        </mat-slider> 
+                    </div>
+                        <input class="a2" type="submit" (click)="rateadd(slider.value,issue._id)" />
+                    </form>
+                
+                </div>
+            </div>
+            </div>
+    
+    
+    <div class="cc">
+    <button  (click)="toggleCollapse()">Click To Review CoffeeShop</button>
+                <div *ngIf="!isCollapsed" >
+                    <form class="a3">
+                        <input class="tb" type="text" placeholder="text" #review/>
+                        <input class="a4" type="submit" (click)="addreview(issue._id,dataofnow.FirstName,review.value)">
+                    </form>             
+                    
+                </div>
+            </div>
+            
+    
+                
+        
+    
+                        <div class="dd">
+                            <h2 style="font-family: 'Courgette', cursive;"><b><i>Review on us....</i></b></h2>
+                                <div  class="rl"*ngFor="let config of reviewlayout; let i = index">
+                                    <p style="font-size: 10px; ">
+            
+                                        <b><i>{{reviewlayout[i]}}<br><br></i></b>
+                                    </p><hr>
+                                </div>
+                        </div>
+                    </div>
+    </div>
+
+    <div class="hey">
+        
+        <div  id="mapid"></div>
+        </div>
+</div>
+

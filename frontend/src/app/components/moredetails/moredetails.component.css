@@ -1,0 +1,268 @@
+
+.j{
+    border: 1px solid red; 
+    padding-left: 50px;
+    background-image: url('https://wallpaperaccess.com/full/2413551.jpg');
+    size:cover;
+    opacity: 5.0;
+    background-size: 3500px; 
+    background-repeat:no-repeat;   
+}
+.janu{
+    color: white;
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 25%;
+    height: 45%;
+    margin-top:90px ;
+    margin-left: 20px;
+    text-align: center;
+ 
+
+}
+.a{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.aa{
+    
+    border: 1px solid red;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 350px;
+    margin-top:90px ;
+    margin-left: 40px;
+    padding-bottom: 15px;
+}
+.bb{
+    color: white;
+border: 1px solid white;
+border-radius: 5px;
+    text-align: center;
+    height:40%;
+    width: 45%;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding-top: 5px;
+   
+}
+
+.cc{
+    padding-top: 5px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    height:40%;
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.dd{
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    height: 60%; 
+    overflow-x: hidden;
+    overflow-x: auto; 
+    text-align:justify; 
+    text-align: center;
+}
+.a3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.a1{
+    background-color: white;
+    width: 150px;
+    height:20px;
+    margin-left: 100px;
+    
+    padding-bottom: 20px;
+}
+.a2{
+    margin-top: 5px;
+}
+
+.tb{
+    width: 320px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.a4{
+    width: 60px;
+    margin-top: 5px;
+    margin-left: 160px;
+    border: 1px solid red;
+    justify-content: center;
+}
+
+
+.hey{
+    /* display: inline-block; */
+
+    width: 1150px; 
+     height: 50%;
+     border: 2px solid green;
+     margin: 20px 10px 10px 55px;
+     border-radius: 20px;
+     
+}
+#mapid{
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 20px;
+ 
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+
+    .j{ 
+        padding-left: 0px;
+        background-size: 3500px;    
+    }
+
+    .hey{
+        /* display: inline-block; */
+    
+        width: 350px; 
+         height: 70%;
+         border: 2px solid green;
+         margin: 0px;
+         border-radius: 20px;
+         
+    }
+    #mapid{
+        height: 250px;
+        border: 1px solid red;
+        border-radius: 20px;
+     
+    }
+  .a{
+      margin-left: 0px;
+  }
+
+    .janu{
+        
+        
+        width: 100%;
+        height: 45%;
+        margin-top:40px ;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .aa{
+    
+        
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 470px;
+        margin-top:40px ;
+        margin-left: 0px;
+        margin-bottom: 10px ;
+        padding-bottom: 15px;
+    }
+
+.bb{
+        width: 90%;
+    }
+
+    .a1{
+        width: 150px;
+        height:7px;
+        margin-left: 90px;
+        margin-top: 25px;
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+    .a2{
+        margin-top: 10px;
+    }
+    button{
+        margin-top: 10px;
+    }
+    h2{
+        margin-top: 10px;
+    }
+    .cc{
+    
+        width: 90%;
+        margin-bottom: 5px;
+        
+    }
+
+    .tb{
+        width: 290px;
+        height: 60px;
+        margin-left: 10px;
+        margin-top: 35px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .a4{
+        margin-top: 15px;
+        margin-left: 140px;
+    
+    }
+
+
+    .dd{
+        color: white;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        height: 60%; 
+        overflow-x: hidden;
+        overflow-x: auto; 
+        text-align:justify; 
+        text-align: center;
+    }
+
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .a1{
+        margin-left: 70px;
+    }
+
+    .tb{
+        width: 270px;
+    }
+    .a4{
+        margin-left: 120px;
+    }
+
+    .hey{
+    
+        width: 87%; 
+         margin: 20px 10px 10px 55px;
+
+         
+    }
+    #mapid{
+        width: 100%;
+        height: 300px;
+        border: 1px solid red;
+        border-radius: 20px;
+     
+    }
+}

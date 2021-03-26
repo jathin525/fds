@@ -1,0 +1,80 @@
+<div class="hii">
+    <br>
+    <mat-card class="a0">
+
+
+        <section class="mat-typography">
+        <h3 style="text-align: center;font-size:40px"><b><i>S I G N       U P</i></b></h3>
+    </section>
+    <mat-divider>
+</mat-divider>
+    <br>
+
+
+   
+
+
+
+       <form [formGroup]="createForm" class="create-form" style="font-size: 20px;">
+      
+      
+      
+      
+        <div class="a1"> 
+
+          
+
+
+            <mat-form-field appearance="outline" class="field-full-width">
+                 <mat-label class="aa ">First name</mat-label>
+            <input matInput required   formControlName="FirstName"#FirstName>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="field-full-width">
+            <mat-label  class="aa " >Last name</mat-label>
+            <input matInput required  formControlName="LastName"#LastName>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="field-full-width">
+            <mat-label  class="aa ">Phone number</mat-label>
+            <input matInput formControlName="phoneno"#phoneno>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="field-full-width">
+            <mat-label  class="aa ">gender</mat-label>
+            <input matInput  formControlName="gender"#gender>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="field-full-width">
+            <mat-label  class="aa ">age</mat-label>
+            <input matInput formControlName="age"#age>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="field-full-width">
+            <mat-label  class="aa ">date of birth</mat-label>
+            <input matInput formControlName="dateofbirth"#dateofbirth>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="field-full-width">
+            <mat-label  class="aa ">emai id</mat-label>
+            <input matInput required formControlName="email"#email>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="field-full-width">
+            <mat-label  class="aa ">password</mat-label>
+            <input matInput required formControlName="password"#password >
+            <mat-hint>Atleast one uppercase, number, symbol (6-12 char)</mat-hint>      
+        </mat-form-field>
+        </div>
+
+
+         
+        <br><br>
+
+    <div class="b1">
+        <button class="a2" mat-raised-button color="accent" routerLink="/login" style="width: 20%;height: 10;">Login</button>&nbsp;
+        <button class="a3" type="submit"(click)="addsignupDetails(FirstName.value,LastName.value,phoneno.value,gender.value,age.value,dateofbirth.value,email.value,password.value)"[disabled]="createForm.pristine||createForm.invalid"mat-raised-button color="primary">Continue</button>
+    </div>
+    </form>
+
+    </mat-card>
+</div>

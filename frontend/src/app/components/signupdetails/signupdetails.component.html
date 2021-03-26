@@ -1,0 +1,28 @@
+<div class="hii">
+<div class="a">
+    <br><br>
+<div class="f">Firstname:{{signUp.FirstName}}<br><br>
+Lastname:{{signUp.LastName}}<br><br>
+Phone Number:{{signUp.phoneno}}<br><br>
+Gender:{{signUp.gender}}<br><br>
+Age:{{signUp.age}}<br><br>
+dateofbirth:{{signUp.dateofbirth}}<br><br>
+Email:{{signUp.email}}
+</div><br><br>
+<button class="b" mat-raised-button color="accent" routerLink="/coffeeshops">View Coffee Shops</button>
+</div>
+
+
+
+<div class="c">
+    <h2>Favourite Coffee Bars</h2><br><br><br>
+    <div class="d">
+    <div class="e" *ngFor='let element of issuebar; let i = index; trackBy: tracByBarId'>
+        <mat-slide-toggle  (change)="favChanged(element._id,signUp._id,$event)" 
+        [checked]="checkedfunction(element._id)"  style="color: white;">{{element.name}}</mat-slide-toggle><br><br>
+    </div>
+</div>
+    <h3 style="color:white">Turn on the button to make it favourite</h3>
+</div>
+    
+</div>

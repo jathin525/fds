@@ -1,0 +1,38 @@
+<div class="j">
+
+<div class="a">
+
+
+    <div class="a1">
+    <div class="form-group">
+        <input type="text" class="form-control"
+        placeholder="Search by Coffee Shop name" [(ngModel)]="searchBox"/>
+    </div>
+</div>
+</div>
+
+
+<h1>List of coffee shops</h1>
+
+
+<div class="a2">
+   
+<div class = "janu"*ngFor="let issue of shopdetails | coffeeshopFilter:searchBox">
+    <mat-card class="a3">
+        <img class="aa" src="https://images.wallpaperscraft.com/image/coffee_machine_dishes_cups_111676_1366x768.jpg" alt="hi">
+        
+
+        <mat-card-header>
+        <mat-card-title class="bb"> {{ issue.name }}</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+        <p>Description : {{issue.description }}</p>
+        
+        <p>Ratings : {{issue.rating }}</p>
+        <button mat-button color="primary" (click)="shopDetails(issue._id)">Click Here</button>
+    </mat-card-content>
+    </mat-card>
+</div>
+</div>
+</div>

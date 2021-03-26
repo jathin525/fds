@@ -1,0 +1,104 @@
+ .hii{
+    background-image: url("https://images.wallpaperscraft.com/image/cup_coffee_table_145239_1600x1200.jpg");
+    height: 577px;
+    size:cover;
+background-repeat:no-repeat;
+border: 0.5px solid red;
+
+}
+.a0{
+    border: 2px solid black;
+width: 1200px;
+margin-top: 70px;
+margin-left: 90px;
+}
+.a1{
+   
+     display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  
+}
+ 
+.field-full-width{
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.a2{
+    
+    text-align: center;
+    background-color: blanchedalmond;
+    color: black;
+    border: 1px solid red; 
+}
+.a3{
+    text-align: center;
+    background-color: rgb(252, 240, 215);
+    color: black;
+    border: 1px solid red; 
+}
+.b1{
+    text-align: center;
+}
+.aa{
+    color: saddlebrown;
+    
+}
+h3{
+    font-family: 'Lucida Console', monospace;
+}
+.mat-form-field{
+    color:orange;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+.hii{
+    height:1210px;
+}
+    .a0{
+        width: 80%;
+        margin: 2px 2px 20px 20px;
+    }
+    .a1{
+        height: 970px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    h3{
+        font-family: 'Times', monospace;
+        background-color: black;
+        color: white;
+        height: 40px;
+        padding-top: 9px;
+    }
+.field-full-width{
+    width:100%;
+    margin: 10px 10px 2px 5px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    .hii{
+        height:99%;
+        width:100%;
+    }
+
+    .a0{
+    width: 80%;
+    margin-top: 70px;
+    margin-left: 90px;
+    }
+
+
+}

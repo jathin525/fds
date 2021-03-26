@@ -1,0 +1,160 @@
+.j{
+
+    background-image: url('https://wallpaperaccess.com/full/2413551.jpg');
+    size:cover;
+    opacity: 5.0;
+    height: 1170px;
+    background-size: 3500px; 
+    background-repeat:no-repeat; 
+    border-radius: 5px;
+    border: 0.5px solid red;
+    /* margin-top: 80px; */
+}
+
+
+.a{
+    margin-top: 20px;
+    
+}
+
+.a1{
+    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.form-control{
+    background-color: black;
+   color: white;
+   border: 1px solid red;
+   border-radius: 10px;
+   font-size: 25px;
+   text-align: center;
+   margin-left: 460px;
+   margin-bottom: 20px;
+   width: 70%;
+   height: 45px;
+    
+}
+
+.a2{
+    margin-left: 50px;
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.a3{
+    border:1px solid red;
+    border-radius: 10px;
+    margin-left:20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+
+}
+
+h1{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-family:'Lucida Console', monospace
+}
+.aa{
+   width: 220px;
+   border-bottom: 1px  solid purple;
+   border-top: 1px solid purple;
+}
+.bb{
+   text-align: center;
+   padding-left: 40px;
+}
+button{
+    border:1px solid white;
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+    .a1{
+    
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .form-control{
+    
+       margin-left: 36px;
+       width: 95%;
+       height: 45px;
+       font-size: 20px;
+        
+    }
+
+    .a2{
+        margin-left: 20px;
+        margin-top:20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .a3{
+        border:1px solid red;
+        border-radius: 10px;
+        margin:0px 20px 15px 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+        color: white;
+        
+    
+    }
+    .j{
+        height: 3295px;
+        background-size: 6000px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    .form-control{
+        margin-left: 330px;
+        width: 95%;
+        height: 45px;
+        font-size: 20px;
+       
+         
+     }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
